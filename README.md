@@ -1,79 +1,81 @@
-<h1> Lesson 5.5: Bug Bounties </h1>
+<h1> Lesson 11.1: Introduction to Data Security  </h1>
 <h2> Summary</h2>
 
-<p1>In this lesson, students will delve into the world of ethical hacking, exploring its financial prospects and societal implications. They will learn about the professional pathway of ethical hackers, the concept of bug bounties, and how organizations leverage these programs to enhance their security posture.</p1>
+<p1>In this lesson, students will be introduced to the fundamentals of data security. They will explore why data security is critical, understand various threats to data security, learn about foundational principles of safeguarding data, and familiarize themselves with best practices to ensure data protection.</p1>
 <br>
 
 <h2>Learning Objectives</h2>
 <ul>
-<li>Students will define ethical hacking and differentiate it from other forms of hacking.</li>
+<li>Understand and explain what data security is and why it's critical in today's digital age.</li>
   <br>
-<li>Students will understand the qualifications and skills necessary to become an ethical hacker.</li><br>
+<li>List and describe common threats to data security, including malware, phishing, man-in-the-middle attacks, and physical theft.</li><br>
   
-<li>Students will define what bug bounties are and understand their significance in identifying security vulnerabilities.</li><br>
+<li>Understand and elucidate the primary principles behind data security: Confidentiality, Integrity, and Availability.</li><br>
 
-<li>Objective Summary and Learning Outcome.</li><br>
+<li>Define and differentiate between the concepts of authentication and authorization.</li><br>
 
-<li>Students will understand the legal boundaries within which ethical hacking and bug bounty programs operate.</li>
+<li>Acknowledge the significance of regular employee training in maintaining and enhancing data security in organizations.</li>
 </ul>
+
 
 <h2>Vocabulary and Acronyms</h2>
 
 <ul>
 <li>
 
-  **Ethical Hacking**</li>
+  **Data Security**</li>
   
 <li>
 
-**Responsible Disclosure**</li>
+**Digitization**</li>
   
 <li>
   
-**White Hat Hacker**</li>
+**Data Breach**</li>
   
 <li>
   
-**Bug Bounty**</li>
+**Regulations**</li>
   
 <li>
   
-  **CVE - Common Vulnerabilities and Exposures**</li>
+  **Man-in-the-Middle Attack**</li>
   
 <li>
   
- **Black Hat Hacker**</li>
+ **Biometrics**</li>
 
   <li>
   
- **CVE/ID - CVE Identifier**</li>
+ **Data Encryption**</li>
 
  <li>
   
- **Grey Hat Hacker**</li>
+ **Backup**</li>
+
+  <li>
+  
+ **Phishing**</li>
 
 </ul>
 
 <h2>NICE Framework KSAs</h2>
 
 <ul>
-<li>K0427 - Knowledge of encryption algorithms and cyber capabilities/tools (e.g., SSL, PGP).</li>
+<li>K0119	Knowledge of hacking methodologies.</li>
 <br>
-<li>S0138 - Skill in using Public-Key Infrastructure (PKI) encryption and digital signature capabilities into applications (e.g., S/MIME email, SSL traffic).</li>
+<li>K0206	Knowledge of ethical hacking principles and techniques.	</li>
 <br>
-<li>K0018 - Knowledge of encryption algorithms.</li>
+<li>K0177	Knowledge of cyber attack stages (e.g., reconnaissance, scanning, enumeration, gaining access, escalation of privileges, maintaining access, network exploitation, covering tracks).</li>
 <br>
-<li>K0624 - Knowledge of Application Security Risks (e.g. Open Web Application Security Project Top 10 list).</li>
+<li>K0005	Knowledge of cyber threats and vulnerabilities. </li>
 <br>
-<li>K0135 - Knowledge of web filtering technologies.</li>
+<li>K0009	Knowledge of application vulnerabilities.</li>
 <br>
-<li>K0398 - Knowledge of concepts related to websites (e.g., web servers/pages, hosting, DNS, registration, web languages such as HTML).</li>
+<li>K0144	Knowledge of social dynamics of computer attackers in a global context.</li>
 <br>
-<li>K0444 - Knowledge of how Internet applications work (SMTP email, web-based email, chat clients, VOIP).</li>
-<br>
-<li>K0447 - Knowledge of how to collect, view, and identify essential information on targets of interest from metadata (e.g., email, http).</li> 
+<li>S0052	Skill in the use of social engineering techniques. (e.g., phishing, baiting, tailgating, etc.).</li>
 </ul>
-
 
 <h2>Lesson Prerequisites</h2>
 <p1>Any topical or subject matter to prepare for the lesson. In Advanced Cyber Lessons, previous Lessons can be referenced. </p1>
@@ -81,254 +83,122 @@
 
 
 <h2>Introduction</h2>
-In the face of escalating cyber threats, ethical hacking has emerged as a robust shield safeguarding the digital realm. This lesson delineates the ethos of ethical hacking, the lucrative allure of bug bounty programs, and the legal scaffolding that governs these domains.
+In the age of digitization, data is often referred to as the 'new oil.' As with any valuable resource, the need to protect data from unauthorized access, breaches, and theft is paramount. This lesson provides an overview of data security, its importance, potential threats, and the foundational principles for securing data effectively.
 
 
-<h2>Understanding Ethical Hacking</h2>
-Ethical hacking, epitomized as the epitome of cybersecurity vigilance, entails authorized probing of systems to unveil potential vulnerabilities.
-<h3><ins>Types of Hackers:</ins></h3>
+
+<h2>Why Data Security is Crucial</h2>
+
+<h4><ins>Definition:</ins></h4>
+Data security refers to the practices and processes in place to ensure data protection from unauthorized access, corruption, or theft across its lifecycle.
+
 <ul>
-  <li>White Hat (Ethical Hackers)</li>
-  <li>Black Hat (Malicious Hackers)</li>
-  <li>Grey Hat (Middle-ground)</li>
-</ul>
-
-
-<h2>Exploring the Professional Pathway of Ethical Hackers</h2>
-
-Ethical hacking has emerged as a crucial cybersecurity profession. Organizations across the globe are recognizing the indispensable value of ethical hackers in fortifying their digital assets against malicious threats. Here, we unfold the journey of becoming an ethical hacker, the skill sets required, the certifications that add a feather to one’s cap, and the various avenues through which ethical hackers can contribute to cybersecurity while generating income.
-
-
-
-<h3><ins>Certifications</ins></h3>
-Acquiring certifications is a stepping stone towards establishing credibility in the field of ethical hacking. These certifications attest to one's skills and knowledge in cybersecurity and ethical hacking.
-<ul>
-  <li><ins>Certified Ethical Hacker (CEH)</ins></li>
+  <li>Growing Dependence on Digital Data</li>
   <ul>
-    <li>Offered by EC-Council, the CEH certification equips individuals with the knowledge and skills to seek out vulnerabilities within an organization's systems.
-</li>
-    <li><a href="https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/">CEH Certification Details</a></li>
+    <li>From personal photographs to financial records, much of our valuable information is now stored digitally.</li>
   </ul>
-  <br>
-  <li><ins>Offensive Security Certified Professional (OSCP)</ins></li>
+  <li>Economic Impact</li>
+   <ul>
+    <li>Data breaches can result in significant financial losses for companies due to fines, legal fees, and loss of customer trust.</li>
+  </ul>
+  <li>Regulatory Implications</li>
+   <ul>
+    <li>Governments worldwide have established regulations like GDPR and CCPA that mandate stringent data protection measures.</li>
+  </ul>
+</ul>
+
+
+
+
+
+<h2>Threats to Data Security</h2>
+<ul>
+  <li>Malware and Viruses</li>
   <ul>
-    <li>This hands-on certification offered by Offensive Security tests one's ability to conduct penetration tests in a controlled environment.</li>
-    <li><a href="https://www.offensive-security.com/pwk-oscp/">OSCP Certification Details</a></li>
+    <li>Malicious software designed to damage, disrupt, or gain unauthorized access to computer systems.</li>
+  </ul>
+    <li>Phishing</li>
+   <ul>
+    <li>Fraudulent attempts to obtain sensitive information by disguising oneself as a trustworthy entity in digital communication.</li>
+  </ul>
+    <li>Man-in-the-Middle Attacks</li>
+   <ul>
+    <li>Unauthorized interception of communication between two systems to eavesdrop or impersonate one of the parties, making it appear as if a normal exchange of information is underway.</li>
+  </ul>
+    <li>Physical Theft</li>
+   <ul>
+    <li>Stealing hardware, such as laptops or hard drives, which contain sensitive data.</li>
   </ul>
 </ul>
 
-<h3><ins>Skill Sets</ins></h3>
-Proficiency in certain technical and soft skills is pivotal for a successful career in ethical hacking.
+
+
+
+
+
+
+
+
+
+<h2>Principles of Data Security</h2>
 <ul>
-<li><ins>Technical Skills</ins></li>
-<ul>
-<li>Knowledge of programming languages such as Python, JavaScript, and SQL.</li>
-<li>Proficiency in operating systems, particularly Linux.</li>
-<li>Understanding of networking and web technologies.</li>
+  <li>Confidentiality</li>
+  <ul>
+    <li>Ensuring that data is accessible only to those authorized to have access.</li>
   </ul>
-<br>
-<li><ins>Soft Skills</ins></li>
-<ul>
-  <li>
-    
-  **Problem-Solving**: Ability to think like a hacker (creatively and analytically) to identify vulnerabilities.</li>
-  <li>
+ <li>Integrity</li>
+  <ul>
+    <li>Maintaining and assuring the accuracy and consistency of data over its entire lifecycle.</li>
+  </ul>
+  <li>Availability</li>
+  <ul>
+    <li>Ensuring that data is accessible and usable upon demand by an authorized entity.</li>
+  </ul>
+  <li>Authentication and Authorization</li>
+  <ul>
+    <li>Processes to verify that someone or something is who or what it declares itself to be and to grant or deny rights and permissions.</li>
+  </ul>
+  
+</ul>
 
-  **Communication**: Effectively conveying findings and recommendations to non-technical stakeholders.</li>
-</ul>
-</ul>
 
-<h3><ins>Income Avenues</ins></h3>
-Ethical hackers have various avenues to ply their trade while making a significant impact in the realm of cybersecurity.
+
+
+
+
+
+<h2>Best Practices in Data Security</h2>
 <ul>
-  <br>
-<li><ins>Penetration Testing</ins></li>
-<ul>
-  <li>Conducting authorized simulated attacks to identify vulnerabilities in systems, networks, or applications.</li>
-  <br>
-</ul>
-<li><ins>Security Analysis</ins></li>
-<ul>
-  <li>Evaluating and ensuring the security of digital assets, and recommending measures to mitigate identified vulnerabilities.</li>
-  <br>
-</ul>
-<li><ins>Bug Bounty Hunting</ins></li>
-<ul>
-  <li>Participating in bug bounty programs to identify and report security vulnerabilities in exchange for rewards.
+  <li>Data Encryption</li>
+  <ul>
+    <li>Converting data into a code to prevent unauthorized access. This includes both at-rest and in-transit encryption.</li>
+  </ul>
+ <li>Regular Backups</li>
+  <ul>
+    <li>Creating copies of data so that these additional copies may be used to restore the original after a data loss event.</li>
+  </ul>
+  <li>Firewalls and Network Security</li>
+  <ul>
+    <li>Using hardware and software solutions to prevent unauthorized access or breaches in a network.
 </li>
-  <br>
-</ul>
-<li><ins>Cybersecurity Consulting</ins></li>
-<ul>
-  <li>Providing expertise and recommendations to organizations to bolster their cybersecurity posture.</li>
-  <br>
-</ul>
-<li><ins>Cybersecurity Training and Education</ins></li>
-<ul>
-  <li>Educating and training individuals or organizations on best practices in cybersecurity.</li>
-  <br>
-</ul>
-
-</ul>
-
-<h3><ins>Professional Associations and Communities</ins></h3>
-Joining professional associations and communities can foster networking, continuous learning, and staying updated on the latest trends and threats.<br>
-<br>
-<ul>
-  
-  <li><a href="https://www.isc2.org/">ISC2:</a> A global community of cybersecurity professionals.</li>
-  <br>
-  <li><a href="https://owasp.org/">OWASP:</a>Open Web Application Security Project, known for its top ten list of web security threats.</li>
-</ul>
-
-
-<h3><ins>Job Prospects</ins></h3>
-
-The demand for ethical hackers is soaring with the perpetual evolution of cyber threats.
-
-<ins>Job Titles:</ins>
-<ul>
-<li>Ethical Hacker</li>
-<li>Penetration Tester</li>
-<li>Security Consultant</li>
-<li>Security Analyst</li>
-</ul>
-
-<ins>Employment Sectors:</ins>
-<ul>
-<li>Financial Institutions</li>
-<li>Healthcare Organizations</li>
-<li>Government Agencies</li>
-<li>Tech Companies</li>
+  </ul>
+  <li>Employee Training</li>
+  <ul>
+    <li>Ensuring that employees are aware of security threats and understand the importance of following data security best practices.</li>
+  </ul>
+   <li>Patch Management</li>
+  <ul>
+    <li>Regularly updating software, operating systems, and applications to their latest versions to protect against known vulnerabilities.</li>
+  </ul>
 </ul>
 
 
 
-<h2>Introduction to Bug Bounties</h2>
-Bug bounty programs are a collaborative initiative between companies and the ethical hacking community to identify vulnerabilities in systems, applications, or networks before malicious actors can exploit them.
-<ul>
-<li><ins>Platforms</ins></li>
-  <br>
-<ul>
-  <li><a href="https://www.hackerone.com/">HackerOne: </a>A leading bug bounty platform connecting businesses with ethical hackers. </li><br>
-  
-  <li><a href="https://www.bugcrowd.com/">Bugcrowd:</a> Another reputable platform facilitating bug bounty programs.</li>
-  <br>
-</ul>
-
-<li><ins>Types of Bounties</ins></li>
-<ul>
-  <li>
-    
-  **Public Bounties**: Open to all ethical hackers.</li>
-  <li>
-    
-  **Private Bounties**: Invitation-only, usually for experienced or specialized hackers.</li>
-</ul>
-
-<li><ins>Rewards</ins></li>
-<br>
-<ul>
-  <li>Monetary rewards, swag, or points which can be used for recognition.</li>
-</ul>
-<br>
-<li><ins>Reporting Process</ins></li>
-<br>
-<ul>
-  <li>Identifying a vulnerability, reporting it through the platform, and working with the company to provide more information if necessary.</li>
-</ul>
-</ul>
-
-<h2>Engagement in Bug Bounty Programs</h2>
-Active participation in bug bounty programs is a practical way to hone skills, contribute to cybersecurity, and earn rewards.<br>
-<ul>
-<li><ins>Process of Engagement</ins></li>
-<ul>
-  <li>
-    
-  **Discovery**: Finding vulnerabilities using various tools and techniques. </li>
-  <li>
-    
-  **Reporting**: Documenting the vulnerability, including how it can be replicated and the potential impact.</li>
-  <li>
-    
-  **Resolution**: Collaborating with the company to resolve the issue.</li>
-  <li>
-    
-  **Reward**: Receiving recognition or compensation for the effort.</li>
-</ul>
-
-
-<li><ins>Examples</ins></li>
-<br>
-<ul>
-  <li><a href="https://www.facebook.com/whitehat">Facebook Bug Bounty Program:</a> Facebook rewards ethical hackers for identifying vulnerabilities in its platforms.</li>
-</ul>
-</ul>
-</ul>
-
-
-
-<h2>Legal Frameworks Surrounding Ethical Hacking and Bug Bounties</h2>
-The legal landscape is crucial to ensure ethical hacking activities remain lawful and constructive.
-<ul>
-<li><ins>Responsible Disclosure</ins></li>
-<br>
-<ul>
-<li>Reporting vulnerabilities directly to the organization and giving them time to fix the issue before public disclosure.</li>
-  <br>
-</ul>
-
-<li><ins>Legal Agreements</ins></li>
-<br>
-<ul>
-<li>Adhering to Non-Disclosure Agreements (NDAs) and the terms of the bug bounty program.</li> 
-  <br>
-</ul>
-
-<li><ins>Overstepping Legal Boundaries</ins></li>
-<br>
-<ul>
-  <li>Understanding the repercussions of unauthorized access or testing outside the defined scope of a bug bounty program.</li>
-</ul>
-
-</ul>
-
-
-<h2>Evaluating Real-world Case Studies</h2>
-Analyzing real-world cases provides insights into the practical impact of ethical hacking and bug bounties.<br>
-<br>
-<ul>
-<li><ins>Case Study</ins></li>
-  <br>
-<ul>
-  <li><a href="https://www.hackerone.com/blog/hacker101-success-story">The tale of a bug bounty hunter’s first submission:</a> An inspiring journey of a bug bounty hunter.</li>
-</ul>
-</ul>
-
-
-
-<h2>Practical Application and Hands-on Exploration</h2>
-Hands-on experiences are crucial for honing skills and understanding the real-world dynamics of ethical hacking and bug bounties.
-<ul>
-<li><ins>Hands-on Platforms</ins></li>
-  <br>
-<ul>
-  <li><a href="https://www.hackthebox.eu/">Hack The Box:</a> A platform offering various challenges for honing hacking skills.</li><br>
-
-  <li><a href="https://ctftime.org/">CTF Time:</a> A platform hosting Capture The Flag (CTF) competitions.</li>
-</ul>
-<br>
-<li><ins>Simulated Ethical Hacking</ins></li>
-<br>
-<ul>
-  <li>Engaging in controlled environments to practice ethical hacking skills, such as using VMs like Metasploitable.</li>
-</ul>
-
-</ul>
+<h2>The Future of Data Security</h2>
+As technology evolves, so do threats. It's crucial to stay informed about emerging data security trends, such as the rise of quantum computing and its implications on encryption, or the increasing use of biometrics for authentication.
 
 <h2>Conclusion</h2>
-The synergy between ethical hacking and bug bounties is a robust mechanism to enhance cybersecurity. Through hands-on engagements, legal awareness, and collaborative efforts, the digital realm becomes a more secure frontier against cyber threats.
+Data security is an ever-evolving field that demands proactive strategies, constant vigilance, and a culture of security awareness. As data continues to play an integral role in our personal and professional lives, understanding and implementing robust data security practices become not just advisable, but indispensable.
 
 
 
@@ -345,9 +215,11 @@ The synergy between ethical hacking and bug bounties is a robust mechanism to en
 
 
 <h2> Presentation</h2>
-
+<a href="https://docs.google.com/presentation/d/1Ja4winir1dckPDRVhJxIZpn81oL2w7i9/edit?usp=sharing&ouid=110228847857413878764&rtpof=true&sd=true">Introduction to Data Security</a>
 
 <h2> Hands-On Labs</h2>
+
+<a href="https://drive.google.com/file/d/1T0wbGSgqjK1yskUXOm0GH4ZE0VJsAIx3/view?usp=sharing"> Symmetric Encryption and Hashing </a>
 
 
 <h2>Additonal Resources</h2>
