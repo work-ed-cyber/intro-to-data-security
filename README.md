@@ -62,19 +62,19 @@
 <h2>NICE Framework KSAs</h2>
 
 <ul>
-<li>K0119	- Knowledge of hacking methodologies.</li>
+<li>K0119: Knowledge of hacking methodologies.</li>
 <br>
-<li>K0206	- Knowledge of ethical hacking principles and techniques.	</li>
+<li>K0206: Knowledge of ethical hacking principles and techniques.	</li>
 <br>
-<li>K0177	- Knowledge of cyber attack stages (e.g., reconnaissance, scanning, enumeration, gaining access, escalation of privileges, maintaining access, network exploitation, covering tracks).</li>
+<li>K0177: Knowledge of cyber attack stages (e.g., reconnaissance, scanning, enumeration, gaining access, escalation of privileges, maintaining access, network exploitation, covering tracks).</li>
 <br>
-<li>K0005	- Knowledge of cyber threats and vulnerabilities. </li>
+<li>K0005: Knowledge of cyber threats and vulnerabilities. </li>
 <br>
-<li>K0009	- Knowledge of application vulnerabilities.</li>
+<li>K0009: Knowledge of application vulnerabilities.</li>
 <br>
-<li>K0144	- Knowledge of social dynamics of computer attackers in a global context.</li>
+<li>K0144: Knowledge of social dynamics of computer attackers in a global context.</li>
 <br>
-<li>S0052	- Skill in the use of social engineering techniques. (e.g., phishing, baiting, tailgating, etc.).</li>
+<li>S0052: Skill in the use of social engineering techniques. (e.g., phishing, baiting, tailgating, etc.).</li>
 </ul>
 
 <h2>Lesson Prerequisites</h2>
@@ -232,7 +232,18 @@ As technology evolves, so do threats. It's crucial to stay informed about emergi
 <h2>Conclusion</h2>
 Data security is an ever-evolving field that demands proactive strategies, constant vigilance, and a culture of security awareness. As data continues to play an integral role in our personal and professional lives, understanding and implementing robust data security practices become not just advisable, but indispensable.
 
-
+<h2>Definitions</h2>
+<ul>
+<li><b>Data Security:</b> The protection of data from unauthorized access, corruption, or theft through various measures and technologies.</li><br>
+<li><b>Digitization:</b>  The process of converting information into a digital format for easier storage, access, and management.</li><br>
+<li><b>Data Breach:</b>  An incident where unauthorized individuals gain access to sensitive or confidential data, potentially leading to its exposure or theft.</li><br>
+<li><b>Regulations:</b>  Rules and standards established by authorities to govern how data should be protected and handled to ensure privacy and security.</li><br>
+<li><b>Man-in-the-Middle Attack:</b>  An attack where an attacker intercepts and potentially alters communications between two parties without their knowledge.</li><br>
+<li><b>Biometrics:</b>  The use of unique physical or behavioral characteristics, such as fingerprints or voice patterns, for authentication and identification purposes.</li><br>
+<li><b>Data Encryption:</b>  The process of converting data into a coded format to prevent unauthorized access and ensure its confidentiality.</li><br>
+<li><b>Backup:</b>  The practice of creating copies of data to protect against loss or corruption and enable recovery in case of a failure or attack.</li><br>
+<li><b>Phishing:</b>  A deceptive attempt to obtain sensitive information by pretending to be a trustworthy entity in electronic communications.</li>
+</ul>
 
 
 
@@ -252,6 +263,6 @@ Data security is an ever-evolving field that demands proactive strategies, const
 <h2> Hands-On Labs</h2>
 
 <a href="https://drive.google.com/file/d/1T0wbGSgqjK1yskUXOm0GH4ZE0VJsAIx3/view?usp=sharing"> Symmetric Encryption and Hashing </a>
-
+<h2>Games</h2>
 
 <h2>Additonal Resources</h2>
