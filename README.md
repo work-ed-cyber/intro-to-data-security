@@ -263,6 +263,7 @@ Data security is an ever-evolving field that demands proactive strategies, const
 <h2> Hands-On Labs</h2>
 
 <a href="https://drive.google.com/file/d/1T0wbGSgqjK1yskUXOm0GH4ZE0VJsAIx3/view?usp=sharing"> Symmetric Encryption and Hashing </a>
+
 <h2>Games</h2>
 <a href="https://create.kahoot.it/share/quiz-lesson-11-1-introduction-to-data-security/a12ac143-b430-46b9-bcb9-dc899a6a21e5"> Kahoot: Introduction to Data Security </a>
 
