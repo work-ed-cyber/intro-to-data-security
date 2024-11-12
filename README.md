@@ -267,7 +267,4 @@ Data security is an ever-evolving field that demands proactive strategies, const
 
 <a href="https://github.com/work-ed-cyber/11.1-med"> Introduction to Data Security </a> - Medium
 
-<h2>Games</h2>
-<a href="https://create.kahoot.it/share/quiz-lesson-11-1-introduction-to-data-security/a12ac143-b430-46b9-bcb9-dc899a6a21e5"> Kahoot: Introduction to Data Security </a>
-
 <h2>Additonal Resources</h2>
