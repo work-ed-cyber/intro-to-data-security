@@ -266,9 +266,8 @@ Data security is an ever-evolving field that demands proactive strategies, const
 <h2> Hands-On Labs</h2>
 <a href="https://github.com/work-ed-cyber/11.1-easy">Introduction to Data Security</a> - Easy <br>
 <br>
-<a href="https://github.com/work-ed-cyber/11.1-med"> Introduction to Data Security </a> - Medium
+<a href="https://github.com/work-ed-cyber/11.1-med"> Introduction to Data Security </a> - Medium<br>
 <a href="https://github.com/work-ed-cyber/11.1---hard/blob/main/README.md">Encrypting Files + Reflection </a> - Hard <br>
 <br>
-https://docs.google.com/document/d/1qsYiN7kyAyKtW3ilod14omQ87TwUGxjJ/edit
 
 <h2>Additonal Resources</h2>
